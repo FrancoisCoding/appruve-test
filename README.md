@@ -4,6 +4,8 @@
 
 > Next run `yarn start`
 
+> Finally create .env file and add API_URL=''
+
 # Dependencies
 
 > Axios was used to retrieve promised based response from api.
