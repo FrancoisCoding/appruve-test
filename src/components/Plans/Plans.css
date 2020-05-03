@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.plans-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  background: #f4f6fa;
+}
+
+.header {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.card-title {
+  padding: 2rem 8rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.bronze-bg {
+  background: #c29259;
+}
+
+.silver-bg {
+  background: #c4c0bf;
+}
+
+.gold-bg {
+  background: #dbc36b;
+}
+
+.bronze {
+  color: #c29259;
+}
+
+.silver {
+  color: #c4c0bf;
+}
+
+.gold {
+  color: #dbc36b;
+}
+
+.card-body-top {
+  font-size: 8rem;
+  text-align: center;
+  background: white;
+  margin-top: 1rem;
+}
+
+.card-body-text {
+  text-align: center;
+  background: white;
+  padding: 1rem;
+  padding-bottom: 4rem;
+}
+
+.card {
+  width: 25%;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.card:hover {
+  border: 0.04rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 30px dimgray;
+}
+
+.arrow-container {
+  text-align: center;
+  font-size: 4.2rem;
+  background: white;
+  margin-top: 1rem;
+}
+
+.card-bottom {
+  padding: 2rem 8rem;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Media Queriers */
+
+/* Mobile View */
+@media (max-width: 360px) {
+  .header {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .plans-container {
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .arrow-container {
+    margin-top: 0;
+  }
+
+  .card-title {
+    padding: 1rem 4rem;
+    font-size: 2rem;
+  }
+
+  .card-bottom {
+    padding: 1rem 4rem;
+    font-size: 2rem;
+  }
+}
+
+/* Tablet View */
+@media (max-width: 600px) {
+  .header {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .plans-container {
+    height: 100%;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .arrow-container {
+    margin-top: 0;
+  }
+}
